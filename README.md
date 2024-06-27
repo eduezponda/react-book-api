@@ -56,64 +56,31 @@ This project is a web application built with React that interfaces with a Book A
     ```bash
     npm start
     ```
+# Usage
+1. **Open the application in your browser.**
+2. **Browse through the various sections**, including book listings, articles, and more.
+3. **Use the search feature** to find specific books or topics.
 
-## Project Structure
-```css
-final_practice/
-├── public/
-│   ├── index.html
-│   └── ...
-├── src/
-│   ├── assets/
-│   │   ├── images/
-│   │   └── ...
-│   ├── components/
-│   │   ├── Header.js
-│   │   ├── BookList.js
-│   │   └── ...
-│   ├── pages/
-│   │   ├── Home.js
-│   │   ├── About.js
-│   │   └── ...
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-├── .gitignore
-├── package.json
-└── README.md
+# Development Process
+- **Prototyping**: Initial designs were created using Figma, and continuously updated based on feedback and testing.
+- **Usability Analysis**: Conducted at various stages to refine user experience.
+- **Accessibility Audits**: Regular audits using automated tools and manual testing with screen readers.
+- **Performance Testing**: Ensured optimal performance through various techniques and tools.
 
-Usage
+# Deployment
+The project is deployed on Netlify. You can view the live application [here](https://bookrealm2024.netlify.app/).
 
-    Open the application in your browser.
-    Browse through the various sections, including book listings, articles, and more.
-    Use the search feature to find specific books or topics.
-
-Development Process
-
-    Prototyping: Initial designs were created using Figma, and continuously updated based on feedback and testing.
-    Usability Analysis: Conducted at various stages to refine user experience.
-    Accessibility Audits: Regular audits using automated tools and manual testing with screen readers.
-    Performance Testing: Ensured optimal performance through various techniques and tools.
-
-Deployment
-
-The project is deployed on Netlify. You can view the live application here.
-Contributing
-
+# Contributing
 Contributions are welcome! Please follow these steps to contribute:
-
-    Fork the repository.
-    Create a new branch:
-
-    bash
-
-git checkout -b feature/your-feature-name
-
-Make your changes and commit them:
-
-bash
-
-git commit -m 'Add some feature'
+1. **Fork the repository.**
+2. **Create a new branch**:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+3. **Make your changes and commit them**:
+    ```bash
+    git commit -m 'Add some feature'
+    ```
 
 Push to the branch:
 
