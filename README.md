@@ -81,3 +81,51 @@ final_practice/
 ├── .gitignore
 ├── package.json
 └── README.md
+
+Usage
+
+    Open the application in your browser.
+    Browse through the various sections, including book listings, articles, and more.
+    Use the search feature to find specific books or topics.
+
+Development Process
+
+    Prototyping: Initial designs were created using Figma, and continuously updated based on feedback and testing.
+    Usability Analysis: Conducted at various stages to refine user experience.
+    Accessibility Audits: Regular audits using automated tools and manual testing with screen readers.
+    Performance Testing: Ensured optimal performance through various techniques and tools.
+
+Deployment
+
+The project is deployed on Netlify. You can view the live application here.
+Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+    Fork the repository.
+    Create a new branch:
+
+    bash
+
+git checkout -b feature/your-feature-name
+
+Make your changes and commit them:
+
+bash
+
+git commit -m 'Add some feature'
+
+Push to the branch:
+
+bash
+
+    git push origin feature/your-feature-name
+
+    Create a pull request.
+
+License
+
+This project is licensed under the MIT License.
+Contact
+
+For any questions or feedback, please contact eduezponda@gmail.com.
