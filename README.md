@@ -2,6 +2,16 @@
 
 This project is a web application built with React that interfaces with a Book API to provide users with information on various books. The application is designed with a focus on mobile-first, responsive design, usability, accessibility, SEO, performance, and proper configuration management.
 
+# Project Report
+
+I have prepared a comprehensive report detailing each aspect of the project. The report spans 20 pages and includes:
+
+- In-depth explanations of the project's various components.
+- Step-by-step descriptions of the development process.
+- Captures and illustrations for better understanding.
+
+This report provides a thorough overview and is available upon request.
+
 ## Table of Contents
 - **Features**
 - **Technologies Used**
