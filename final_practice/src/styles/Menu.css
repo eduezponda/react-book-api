@@ -1,0 +1,72 @@
+.header {
+    background-color: #2A9D8F;
+    padding: 1.3em;
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2A9D8F;
+}
+
+.navigation .logo {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #BC4749;
+    -webkit-text-stroke: 1px white;
+    margin-left: 1.25em;
+    text-align: left;
+}
+
+.navigation .menu {
+    display: flex;
+    align-items: center;
+}
+
+.navigation .menu a {
+    margin-right: 2em;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.navigation .menu a:hover {
+    color: #BC4749;
+    transform: scale(1.1);
+}
+
+.navigation .menu .APIbooks {
+    background-color: #E0FAEB;
+    color: #2A9D8F;
+    padding: 20px;
+    margin: 0;
+    border-radius: 0.4em;
+}
+
+@media only screen and (max-width: 600px) {
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation .logo {
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 1em;
+    }
+
+    .navigation .menu a {
+        font-size: 0.8em;
+        margin-right: 0;
+        margin: 1em;
+    }
+
+    .navigation .menu .APIbooks {
+        padding: 10px;
+    }
+}  

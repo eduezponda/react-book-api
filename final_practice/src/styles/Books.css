@@ -1,0 +1,232 @@
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em
+}
+
+.books-container {
+    padding-bottom: 20%;
+}
+
+.books-container #title{
+    margin-bottom: 2em;
+    color: #bc4749;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", "Arial", "sans-serif";
+    font-size: 2em;
+}
+
+.filters {
+    margin-bottom: 8em;
+}
+
+.infoResult {
+    margin-bottom: 60%;
+}
+
+.infoResult h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #264653;
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.infoResult button {
+    background-color: #bc4749;
+    color: white;
+    font-size: 1.2em;
+    font-size: 1.1;
+    padding: 2em 4em 2em 4em;
+    font-weight: bold;
+    border-radius: 1.5em;
+    margin-top: 3em;
+}
+
+.infoResult button:hover {
+    scale: 1.1;
+}
+
+.books-container #loading {
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    color: #264653;
+    margin-top: 2em;
+}
+
+.books-container #message {
+    text-transform: uppercase;
+    text-align: center;
+    color: #264653;
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+
+.filters input[type="number"]{
+    padding: 1em; 
+    border: 1px solid #2a9d8f; 
+    background-color: #fbfffd;
+    border-radius: 5px;
+    font-size: 1em; 
+    width: 10em;
+    text-align: center;
+    color: #264653;
+}
+
+.filters input[type="text"],
+.filters select,
+.filters button {
+    padding: 1em; 
+    border: 1px solid #2a9d8f; 
+    background-color: #fbfffd;
+    border-radius: 5px;
+    font-size: 1em; 
+    width: 12em;
+    text-align: center;
+    color: #264653;
+}
+
+.filters select {
+    width: 12em;
+    padding: 1em; 
+    background-color: #fbfffd;
+    text-align: center;
+    color: #264653;
+}
+
+.filters button {
+    background-color: #264653; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.filters button:hover {
+    background-color: #2a9d8f; 
+    scale: 1.1;
+}
+
+.book-card {
+    margin-bottom: 5em;
+    border: 1px solid #dce3e6;
+    margin-left: 10em;
+    margin-right: 10em;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+.book-card h2 {
+    text-transform: uppercase;
+    margin-bottom: 2em;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", "Arial", "sans-serif";
+}
+
+.book-card img {
+    margin-bottom: 3em;
+}
+
+.book-card p {
+    margin-top: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+    .books-container {
+        padding-bottom: 20%;
+        margin: 1em
+    }
+
+    .filters input[type="number"]{
+        padding: 1em; 
+        border: 1px solid #2a9d8f; 
+        background-color: #fbfffd;
+        border-radius: 5px;
+        font-size: 1em; 
+        width: 10em;
+        text-align: center;
+        color: #264653;
+    }
+    
+    .filters input[type="text"],
+    .filters select,
+    .filters button {
+        padding: 1em; 
+        border: 1px solid #2a9d8f; 
+        background-color: #fbfffd;
+        border-radius: 5px;
+        font-size: 1em; 
+        width: 10em;
+        text-align: center;
+        color: #264653;
+    }
+    
+    .filters select {
+        width: 12em;
+        padding: 1em; 
+        background-color: #fbfffd;
+        text-align: center;
+        color: #264653;
+    }
+
+    .filters button {
+        background-color: #264653; 
+        color: white; 
+        border: none; 
+        cursor: pointer; 
+    }
+    
+    .filters button:hover {
+        background-color: #2a9d8f; 
+        scale: 1.1;
+    }
+
+    .books-container #loading {
+        text-transform: uppercase;
+        font-size: 1.6em;
+        text-align: center;
+        color: #264653;
+        margin-top: 1.5em;
+    }
+    
+    .books-container #message {
+        text-transform: uppercase;
+        text-align: center;
+        color: #264653;
+        font-size: 1em;
+        margin-top: 1.5em;
+    }
+
+    .book-card {
+        margin-bottom: 2em;
+        border: 1px solid #dce3e6;
+        margin-left: 1em;
+        margin-right: 1em;
+        border-radius: 1em;
+        padding: 2em;
+    }
+    
+    .book-card h2 {
+        text-transform: uppercase;
+        margin-bottom: 1em;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", "Arial", "sans-serif";
+    }
+    
+    .book-card img {
+        margin-bottom: 1.5em;
+    }
+    
+    .book-card p {
+        margin-top: 1em;
+    }
+
+    .infoResult button {
+        background-color: #bc4749;
+        color: white;
+        font-size: 0.9em;
+        padding: 1em 2em 1em 2em;
+        font-weight: bold;
+        border-radius: 1.5em;
+        margin-top: 3em;
+    }
+}

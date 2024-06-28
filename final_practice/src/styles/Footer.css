@@ -1,0 +1,12 @@
+
+.footer {
+    margin: 0;
+    background-color: #264653;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", "Arial", "sans-serif";
+    color: white;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}  

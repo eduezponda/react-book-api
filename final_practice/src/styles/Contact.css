@@ -1,0 +1,56 @@
+
+.contact-section {
+margin-top: 6em;
+background-color: #f0f0f0;
+padding: 20px;
+text-align: center;
+border-top: 1px solid #bc4749;
+margin-left: 0;
+padding-bottom: 10em;
+}
+
+.contact-section h2 {
+margin-top: 0.3em;
+color: #2a9d8f;
+font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", "Arial", "sans-serif";
+font-weight: bold;
+font-size: 3em;
+margin-bottom: 0.313em;
+}
+
+.contact-section p {
+color: #666;
+font-size: 1.2em;
+margin-bottom: 0.938em;
+margin-bottom: 5em;
+}
+
+.contact-section input[type="email"] {
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 0.313em;
+width: 80%;
+}
+
+.contact-section button {
+margin-left: 3em;
+padding: 10px 20px;
+background-color: #bc4749;
+border: none;
+border-radius: 5px;
+color: white;
+font-weight: bold;
+cursor: pointer;
+}
+
+.contact-section button:hover{
+    scale: 1.1;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-section button {
+        margin-top: 2em;
+    }
+}

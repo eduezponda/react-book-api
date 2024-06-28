@@ -1,0 +1,144 @@
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 3em;
+  margin: 10em;
+  margin-left: 15em;
+  margin-right: 15em;
+}
+
+.blog-card {
+  background-color: rgba(242, 232, 207, 0.6);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", "Arial", "sans-serif";
+  padding: 1.5em;
+  border-radius: 2em;
+  width: 23em;
+}
+
+.blog-card:hover {
+  scale: 1.05;
+  border: 1px solid #264653;
+}
+
+.blog-card h2 {
+  margin-top: 1.3em;
+}
+
+.blog-card p {
+  margin: 1.3em 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", "Arial", "sans-serif";
+}
+
+.blog-card img {
+  width: 260px;
+  height: 250px;
+  border-radius: 1.5em;
+}
+
+.blog__card--text {
+  max-height: 3em;
+}
+
+.leerMas {
+  background-color: #bc4749;
+  color: white;
+  padding: 1.2em 4em;
+  font-weight: bold;
+  font-size: 1.1em;
+  border-radius: 1.5em;
+  margin: 2em 0;
+}
+
+.leerMas:hover {
+  transform: scale(1.1);
+}
+
+.article {
+  border-radius: 2em;
+  margin: 3em;
+  padding: 5em;
+  border: 1px solid #264653;
+  background-color: rgba(242, 232, 207, 0.4);
+  text-align: center;
+}
+
+.article h1 {
+  color: #264653;
+  margin-bottom: 2em;
+}
+
+.article p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", "Arial", "sans-serif";
+  font-size: 1.4em;
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .blog-container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 2em;
+    margin: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  .blog-card {
+    width: calc(100% - 2em);
+    padding: 1em;
+  }
+
+  .blog-card h2 {
+    font-size: 1.2em;
+  }
+
+  .blog-card p {
+    font-size: 1em;
+  }
+
+  .blog-card img {
+    width: 10em;
+    height: 10em;
+    border-radius: 1.3em;
+  }
+
+  .leerMas {
+    padding: 0.8em 2em;
+    font-size: 1em;
+  }
+
+  .blog-card:hover {
+    transform: none;
+    border: none;
+  }
+
+  .leerMas:hover {
+    transform: none;
+  }
+
+  .article {
+    border-radius: 2em;
+    margin: 1em;
+    padding: 2em;
+    border: 1px solid #264653;
+    background-color: rgba(242, 232, 207, 0.4);
+    text-align: center;
+  }
+
+  .article h1 {
+    color: #264653;
+    margin-bottom: 1em;
+    font-size: 1.4em;
+  }
+
+  .article p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", "Arial", "sans-serif";
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+}

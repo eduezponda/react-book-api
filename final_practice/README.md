@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# Book API Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web application built with React that interfaces with a Book API to provide users with information on various books. The application is designed with a focus on mobile-first, responsive design, usability, accessibility, SEO, performance, and proper configuration management.
 
-## Available Scripts
+# Project Report
 
-In the project directory, you can run:
+I have prepared a comprehensive report detailing each aspect of the project. The report spans 20 pages and includes:
 
-### `npm start`
+- In-depth explanations of the project's various components.
+- Step-by-step descriptions of the development process.
+- Captures and illustrations for better understanding.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This report provides a thorough overview and is available upon request.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents
+- **Features**
+- **Technologies Used**
+- **Setup and Installation**
+- **Project Structure**
+- **Usage**
+- **Development Process**
+- **Deployment**
+- **Contributing**
+- **License**
+- **Contact**
 
-### `npm test`
+## Features
+- **Mobile First/Responsive Design**: The application is designed with a mobile-first approach, ensuring it works seamlessly on all devices, from mobile phones to desktops.
+- **Usability**: Focus on providing an intuitive and user-friendly interface, ensuring that users can easily navigate and interact with the application.
+- **Accessibility**: Implementation of accessibility best practices, including ARIA attributes, to ensure the application is usable by people with disabilities. Automated accessibility audits and evaluations with screen reader software were conducted.
+- **SEO**: Optimized for search engines by incorporating keywords and phrases related to books based on Google Trends. Utilized correct HTML tags and other SEO techniques to improve search visibility.
+- **Performance**: Ensured fast load times and efficient performance through various optimization techniques, including using WebP format for images.
+- **Configuration Management**: Managed using Git with a project hosted on GitLab. Utilized branches and pull requests to streamline development and collaboration.
+- **Correct HTML Tags**: Use of semantic HTML to improve SEO and accessibility.
+- **CSS Techniques**: Utilized CSS Grid, Flexbox, media queries, and BEM notation for styling.
+- **Usability Analysis**: Conducted usability analysis during different phases of the project to ensure the application meets user needs.
+- **Prototyping**: Initial and ongoing prototyping using Figma to refine the design and functionality.
+- **React Features**: Implemented using React with functional components, hooks like useState and useEffect, and React Router for navigation.
+- **Deployment**: Deployed on Netlify for easy and efficient hosting.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
+- **Frontend**: React, HTML5, CSS3 (Grid, Flexbox, BEM notation)
+- **State Management**: React hooks (useState, useEffect)
+- **Routing**: React Router
+- **Design and Prototyping**: Figma
+- **Accessibility Tools**: ARIA attributes, screen reader software, automated accessibility audit tools
+- **Performance Optimization**: WebP image format, various other optimizations
+- **Version Control**: Git (hosted on GitLab)
+- **Hosting**: Netlify
+- **SEO Tools**: Google Trends for keyword research
 
-### `npm run build`
+## Setup and Installation
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/eduezponda/react-book-api.git
+    ```
+2. **Navigate to the project directory**:
+    ```bash
+    cd final_practice
+    ```
+3. **Install the dependencies**:
+    ```bash
+    npm install
+    ```
+4. **Start the development server**:
+    ```bash
+    npm start
+    ```
+# Usage
+1. **Open the application in your browser.**
+2. **Browse through the various sections**, including book listings, articles, and more.
+3. **Use the search feature** to find specific books or topics.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Development Process
+- **Prototyping**: Initial designs were created using Figma, and continuously updated based on feedback and testing.
+- **Usability Analysis**: Conducted at various stages to refine user experience.
+- **Accessibility Audits**: Regular audits using automated tools and manual testing with screen readers.
+- **Performance Testing**: Ensured optimal performance through various techniques and tools.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Deployment
+The project is deployed on Netlify. You can view the live application [here](https://bookrealm2024.netlify.app/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Contributing
+Contributions are welcome! Please follow these steps to contribute:
+1. **Fork the repository.**
+2. **Create a new branch**:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+3. **Make your changes and commit them**:
+    ```bash
+    git commit -m 'Add some feature'
+    ```
 
-### `npm run eject`
+Push to the branch:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    git push origin feature/your-feature-name
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Create a pull request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+License
 
-## Learn More
+This project is licensed under the MIT License.
+Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For any questions or feedback, please contact eduezponda@gmail.com.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -1,100 +1,248 @@
-/* App.css */
+body {
+  margin: 0;
+}
+
+main.main-content {
+  margin-left: 0;
+}
+
 .app-container {
   text-align: center;
-  font-family: 'Arial', sans-serif;
+  margin: 0;
 }
 
 .header {
   background-color: #f5f5f5;
   padding: 10px 0;
-}
-
-.navigation .logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-}
-
-.navigation .menu a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #777;
+  margin: 0;
+  background-color: #2a9d8f;
 }
 
 .bookrealm-image {
-  background: url('image.jpg') no-repeat center;
+  background: linear-gradient(
+      rgba(224, 250, 235, 0.6),
+      rgba(224, 250, 235, 0.6)
+    ),
+    url("../public/images/header.webp") no-repeat center;
   background-size: cover;
-  height: 300px; /* Ajusta la altura según sea necesario */
-}
-
-/* Ahora, .main-content ya no necesita el background de image.jpg */
-.main-content {
-  padding: 20px;
-}
-
-
-.content-section h1 {
-  margin-bottom: 30px;
-  color: rgb(0, 0, 0);
-}
-
-.content-button, .more-info-button {
-  display: block;
-  margin: 10px auto;
-  padding: 10px 20px;
-  background-color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.more-info-button {
-  background-color: #e67e22;
-  color: white;
-  font-weight: bold;
-}
-
-/* ContactSection Styling */
-.contact-section {
-  background-color: #f0f0f0;
-  padding: 20px;
-  text-align: center;
-}
-
-.contact-section h2 {
-  color: #333;
-  margin-bottom: 5px;
-}
-
-.contact-section p {
-  color: #666;
-  margin-bottom: 15px;
-}
-
-.contact-section input[type=email] {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 80%; /* You can adjust the width as needed */
-}
-
-.contact-section button {
-  padding: 10px 20px;
-  background-color: #e67e22;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  cursor: pointer;
-}
-
-/* Footer Styling Update */
-.footer {
-  background-color: #333;
-  color: white;
-  padding: 20px 0;
+  height: 500px;
   position: relative;
-  bottom: 0;
-  width: 100%;
+  margin-bottom: 4em;
+}
+
+.bookrealm-image::before {
+  content: "BOOKREALM";
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", "Arial", "sans-serif";
+  font-size: 120px;
+  font-weight: bold;
+  color: #bc4749;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bookrealm-image_Blog {
+  background: linear-gradient(
+      rgba(115, 115, 115, 0.8),
+      rgba(115, 115, 115, 0.8)
+    ),
+    url("../public/images/header.webp") no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  margin-bottom: 4em;
+}
+
+.bookrealm-image_Blog::before {
+  content: "BLOG";
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", "Arial", "sans-serif";
+  font-size: 120px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bookrealm-image_AboutUs {
+  background: linear-gradient(
+      rgba(115, 115, 115, 0.8),
+      rgba(115, 115, 115, 0.8)
+    ),
+    url("../public/images/header.webp") no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  margin-bottom: 4em;
+}
+
+.bookrealm-image_AboutUs::before {
+  content: "ABOUT US";
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", "Arial", "sans-serif";
+  font-size: 120px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bookrealm-image_Information {
+  background: linear-gradient(
+      rgba(115, 115, 115, 0.8),
+      rgba(115, 115, 115, 0.8)
+    ),
+    url("../public/images/header.webp") no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.bookrealm-image_Information::before {
+  content: "INFORMATION";
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", "Arial", "sans-serif";
+  font-size: 120px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bookrealm-image_ApiBooks {
+  background: linear-gradient(
+      rgba(115, 115, 115, 0.8),
+      rgba(115, 115, 115, 0.8)
+    ),
+    url("../public/images/header.webp") no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  margin-bottom: 4em;
+}
+
+.bookrealm-image_ApiBooks::before {
+  content: "OUR BOOKS";
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", "Arial", "sans-serif";
+  font-size: 120px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bookrealm-image_FilterBy {
+  background: linear-gradient(
+      rgba(115, 115, 115, 0.8),
+      rgba(115, 115, 115, 0.8)
+    ),
+    url("../public/images/header.webp") no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  margin-bottom: 4em;
+}
+
+.bookrealm-image_FilterBy::before {
+  content: "RESULTS";
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", "Arial", "sans-serif";
+  font-size: 120px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-content {
+  margin: 0;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 24px;
+  z-index: 100;
+}
+
+.loading::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border: 5px solid #000000;
+  border-top-color: #000000;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bookrealm-image {
+    height: 200px;
+  }
+
+  .bookrealm-image::before {
+    font-size: 60px;
+  }
+
+  .bookrealm-image_AboutUs {
+    height: 200px;
+  }
+
+  .bookrealm-image_AboutUs::before {
+    font-size: 60px;
+  }
+
+  .bookrealm-image_Blog {
+    height: 200px;
+    margin-bottom: 2em;
+  }
+
+  .bookrealm-image_Blog::before {
+    font-size: 60px;
+  }
+
+  .bookrealm-image_Information {
+    height: 200px;
+  }
+
+  .bookrealm-image_Information::before {
+    font-size: 60px;
+  }
+
+  .bookrealm-image_ApiBooks {
+    height: 200px;
+  }
+
+  .bookrealm-image_ApiBooks::before {
+    font-size: 60px;
+  }
+
+  .bookrealm-image_FilterBy {
+    height: 200px;
+  }
+
+  .bookrealm-image_FilterBy::before {
+    font-size: 60px;
+  }
 }
